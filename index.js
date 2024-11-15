@@ -42,6 +42,9 @@ app.post("/new-message", validateMessage, (req, res) => {
       });
 });
 
+
+
+
 app.listen(3000, () => {
    console.log("Telegram app listening on port 3000!");
 });
